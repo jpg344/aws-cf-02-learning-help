@@ -1,0 +1,129 @@
+@font-face {
+        font-family: inika;
+        src: url('./font/Inika-Regular.ttf');
+}
+body, button {
+        font-family: inika;
+        font-style: normal;
+        font-weight: 400;
+}
+
+@media (max-width: 1280px) {
+        img {
+                width: 80vw;
+                margin-bottom: 2vh;
+        }
+
+        .side-nav {
+                text-align: center;
+                width: 100vw;
+        }
+
+        .top-nav {
+                text-align: center;
+        }
+
+        .content {
+                text-align: center;
+        }
+
+        .home-button {
+                width: 50vw;
+                height: 5vh;
+                margin-top: 2vh;
+                margin-bottom: 2vh;
+        }
+
+        .menu-button {
+                width: 50vw;
+                height: 5vh;
+                /*margin-top: 2vh;*/
+                margin-bottom: 2vh;
+        }
+}
+
+@media (min-width: 1280px) {
+        img {
+                width: 29vw;
+        }
+
+        .side-nav {
+                min-width: 20vw;
+                padding-left: 3vw;
+        }
+
+        .home-button {
+                margin: 26px 40px;
+        }
+
+        .menu-button {
+                margin: 31px 40px;
+        }
+        #impressum {
+                float: right;
+        }
+}
+
+a {
+        text-decoration: none;
+}
+a:visited {
+        text-decoration: none;
+        color: inherit;
+}
+
+p {
+        font-size: 2vh;
+}
+
+h1 {
+        font-size: 3.6vh;
+}
+
+button {
+        border-radius: 2vh;
+        color: #FFFFFF;
+        font-size: 2vh;
+        min-width: 13.7vw;
+        min-height: 3vh;
+        box-shadow: 1px rgb(0 0 0 / 25%);
+}
+
+.home-button {
+        background-color: #443643;
+}
+
+.menu-button {
+        background-color: #6C576B;
+}
+
+.top-nav {
+        min-height: fit-content;
+        background-color: #76B798;
+}
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.content {
+        flex: 1;
+        background-color: #E9E9E9;
+        min-width: 50vw;
+        min-height: 90vh;
+        padding-left: 8vw;
+        padding-right: 8vw;
+}
+
+.side-nav {
+        background-color: #D9D9D9;
+}
+
+.banner {
+        min-height: fit-content;
+        height: 90vh;
+        background-image: url("./images/banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+}
